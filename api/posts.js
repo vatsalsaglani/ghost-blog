@@ -1,10 +1,6 @@
 import GhostContentAPI from '@tryghost/content-api';
 import ghostapikey from '../keys/ghostapi'
-// const api = new GhostContentAPI({
-//     url: 'http://localhost:2368',
-//     key: 'da4dab62f40b027f55556489e8',
-//     version: 'v2'
-// });
+
 
 const api = new GhostContentAPI(ghostapikey)
 
