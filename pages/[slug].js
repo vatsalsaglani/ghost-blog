@@ -1,10 +1,14 @@
 import { getSinglePost } from '../api/posts';
 import BlogLayout from '../components/bloglayout';
-import Link from 'next/link'
+import Link from 'next/link';
+import Head from 'next/head';
 
 const PostPage = (props) => {
     return (
         <div>
+            <Head>
+                <title>{props.post.title}</title>
+            </Head>
             <div class="fixed-action-btn">
                 <Link href='/'><a class="btn-floating btn-large red">
                     <i class="inhouse-home-btn medium material-icons">home</i>
