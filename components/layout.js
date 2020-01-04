@@ -27,6 +27,8 @@ const Layout = (props) => (
             {
                 `
                 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+                @import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+
 
 
                
@@ -36,19 +38,22 @@ const Layout = (props) => (
             }
 
             .inhouse-banner {
-                margin-top: -190px;
-                height: 500px;
+                margin-top: -220px;
+                height: 580px;
                 width: 100%;
-                background: #798fa8;
+                background: #f7bb2f;
                 position: absolute;
                 z-index: -11111;
-                border-radius: 100px;
+                // border-radius: 100px;
             }
             
             h1 {
+                color: white;
                 padding-bottom: 20px;
-                // text-align: center
-                padding-left: 20px;
+                text-align: center;
+                font-family: 'Courier Prime', monospace;
+                font-size: 60px;
+                letter-spacing: 0.2em;
             }
 
             .card {

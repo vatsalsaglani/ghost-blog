@@ -9,8 +9,8 @@ import Layout from '../components/layout';
 
 const Index = (props) => (
     <Layout>
-        <h1>
-            BLOGS
+        <h1 className = 'center'>
+            B.L.O.G.S
         </h1>
         <div class="fixed-action-btn">
             <Link href='https://thevatsalsaglani.xyz'><a class="btn-floating btn-large red">
