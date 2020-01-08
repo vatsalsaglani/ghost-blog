@@ -53,7 +53,7 @@ const Layout = (props) => (
                 text-align: center;
                 font-family: 'Courier Prime', monospace;
                 font-size: 60px;
-                letter-spacing: 0.2em;
+                // letter-spacing: 0.2em;
             }
 
             .card {
@@ -76,8 +76,10 @@ const Layout = (props) => (
 
             .inhouse-tags {
                 display: inline-block;
-                padding-bottom: 8px;
+                padding-bottom: 18px;
                 padding-left: 10px;
+                padding-top: 20px;
+                padding-right: 10px;
                 margin-top: 8px;
             }
             `

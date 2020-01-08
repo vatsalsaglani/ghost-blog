@@ -14,7 +14,7 @@ const Index = (props) => (
         </h1>
         <div class="fixed-action-btn">
             <Link href='https://thevatsalsaglani.xyz'><a class="btn-floating btn-large red">
-                <i class="inhouse-home-btn medium material-icons">person</i>
+                <i class="inhouse-home-btn medium material-icons yellow">person</i>
             </a></Link>
 
         </div>

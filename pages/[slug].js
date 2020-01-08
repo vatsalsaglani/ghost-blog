@@ -9,15 +9,15 @@ const PostPage = (props) => {
             <Head>
                 <title>{props.post.title}</title>
             </Head>
-            <div class="fixed-action-btn">
-                <Link href='/'><a class="btn-floating btn-large red">
-                    <i class="inhouse-home-btn medium material-icons">home</i>
+            <div className="fixed-action-btn">
+                <Link href='/'><a className="btn-floating btn-large red">
+                    <i class="inhouse-home-btn medium material-icons yellow">home</i>
                 </a></Link>
 
             </div>
             <BlogLayout>
                 <h1 className='inhouse-title'>{props.post.title}</h1>
-                <div dangerouslySetInnerHTML={{ __html: props.post.html }} />
+                <div className = 'inhouse_inner_html' dangerouslySetInnerHTML={{ __html: props.post.html }} />
 
             </BlogLayout>
 

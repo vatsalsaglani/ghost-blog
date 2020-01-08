@@ -8,6 +8,10 @@ const BlogLayout = (props) => (
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></link>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
             <script async src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css" />
+            <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+            <script src = '../public/highlisht.js'></script>
+
 
         </Head>
         <div className="banner-class">
@@ -17,7 +21,9 @@ const BlogLayout = (props) => (
             {props.children}
 
         </div>
-        
+
+
+            
 
             <style jsx global>
 
@@ -32,15 +38,15 @@ const BlogLayout = (props) => (
                     padding-top: 10px;
                 }
 
-                .banner-class {
-                    margin-top: -190px;
-                    height: 500px;
-                    width: 100%;
-                    background: #798fa8;
-                    position: absolute;
-                    z-index: -11111;
-                    border-radius: 100px;
-                }
+                // .banner-class {
+                //     margin-top: -190px;
+                //     height: 500px;
+                //     width: 100%;
+                //     background: #798fa8;
+                //     position: absolute;
+                //     z-index: -11111;
+                //     border-radius: 100px;
+                // }
            
 
                 div  {
@@ -49,8 +55,8 @@ const BlogLayout = (props) => (
                 }
 
                 .inhouse-title {
-                    color: white;
-                    text-decoration: underline;
+                    // color: white;
+                    // text-decoration: underline;
                 }
 
                 .container {
@@ -65,7 +71,6 @@ const BlogLayout = (props) => (
                     border: 1px solid #dddbcc;
                     border-radius: 5px;
                     elevation: higher;
-                    // white-space: nowrap;
                     overflow: auto;
                     width: 99%;
                 }
@@ -81,6 +86,7 @@ const BlogLayout = (props) => (
                     color: white;
                     background: #27221f;
                     border-radius: 3px;
+                    font-weight: 1000;
 
                 }
             
@@ -98,6 +104,9 @@ const BlogLayout = (props) => (
                     padding-right: 12%;
                     text-align: justify;
                     margin-left: 12%;
+                    font-size: 1.01em;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
                 }
 
                 ul {
@@ -118,6 +127,19 @@ const BlogLayout = (props) => (
                 .inhouse-home-btn {
                     background-color: #798fa8;
                 }
+
+
+          
+
+                // img {
+                //     margin-left: 25%;
+                //     height: 50%;
+                //     width: 50%;
+                //     text-align: center;
+                //     padding-bottom: 25px;
+                // }
+
+                
                 
                 `
 
