@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@tryghost/content-api": "^1.3.5",
-    "dompurify": "^2.0.7",
+    "dompurify": "^2.0.17",
     "next": "^9.1.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
